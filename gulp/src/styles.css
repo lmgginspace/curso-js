@@ -1,0 +1,27 @@
+/* Ejemplo de CSS para comprobar la minificación con Gulp */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
