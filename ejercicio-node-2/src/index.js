@@ -1,12 +1,32 @@
-import { sumar, restar, multiplicar, dividir } from './calculadora.js';
+import { saludar, despedirse, bienvenidaCurso, crearMensajePersonalizado } from './mensajes.js';
 
-const numeroA = 20;
-const numeroB = 5;
+console.log('--- Mensajes básicos ---');
 
-console.log('Calculadora modular');
-console.log('-------------------');
-console.log(`Suma: ${sumar(numeroA, numeroB)}`);
-console.log(`Resta: ${restar(numeroA, numeroB)}`);
-console.log(`Multiplicación: ${multiplicar(numeroA, numeroB)}`);
-console.log(`División: ${dividir(numeroA, numeroB)}`);
-console.log(`División / 0: ${dividir(numeroA, 0)}`)
+const nombres = ['Juan', 'María', 'Pedro'];
+function mostrarMensajes(nombre) {
+    console.log(saludar(nombre));
+    console.log(despedirse(nombre));
+    console.log(bienvenidaCurso(nombre, 'Node.js'));
+}
+
+for (const nombre of nombres) {
+    mostrarMensajes(nombre);
+    console.log('---');
+}
+
+console.log('--- Mensajes personalizados ---');
+
+const nombres2 = [ 'Luis' , 'Jesús' ];
+const acciones = [ 'estudiar' , 'trabajar' ];
+const lugares = [ 'la biblioteca' , 'la oficina' ];
+
+for (let n of nombres2) {
+    for (let a of acciones) {
+        for (let l of lugares) {
+            console.log(crearMensajePersonalizado(n, a, l));
+        }
+    }
+}
+
+console.log('--- ¿Y si llamamos a la función sin argumentos? ---');
+console.log(saludar());
