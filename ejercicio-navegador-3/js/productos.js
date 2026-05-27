@@ -1,0 +1,17 @@
+export const productos = [
+    { nombre: 'Teclado', precio: 35, categoria: 'Informática', disponible: true },
+    { nombre: 'Monitor', precio: 249, categoria: 'Informática', disponible: true },
+    { nombre: 'Alfombrilla', precio: 12, categoria: 'Accesorios', disponible: false },
+    { nombre: 'Ratón', precio: 25, categoria: 'Informática', disponible: true },
+    { nombre: 'Silla de oficina', precio: 150, categoria: 'Mobiliario', disponible: true },
+    { nombre: 'Lámpara de escritorio', precio: 45, categoria: 'Iluminación', disponible: false },
+    { nombre: 'Auriculares', precio: 80, categoria: 'Audio', disponible: true },
+    { nombre: 'Webcam', precio: 60, categoria: 'Informática', disponible: true },
+    { nombre: 'Impresora', precio: 120, categoria: 'Informática', disponible: false },
+    { nombre: 'Disco duro externo', precio: 100, categoria: 'Almacenamiento', disponible: true },
+    { nombre: 'Router Wi-Fi', precio: 70, categoria: 'Redes', disponible: true },
+    { nombre: 'Bolígrafo', precio: 2, categoria: 'Papelería', disponible: true },
+    { nombre: 'Cuaderno', precio: 5, categoria: 'Papelería', disponible: false },
+    { nombre: 'Mochila', precio: 40, categoria: 'Accesorios', disponible: true },
+    { nombre: 'Cargador portátil', precio: 30, categoria: 'Accesorios', disponible: true },
+];
