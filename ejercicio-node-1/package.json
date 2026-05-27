@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio-node-1",
+  "version": "1.0.0",
+  "description": "Ejercicio pequeño con node.js.",
+  "keywords": [
+    "exercise",
+    "test"
+  ],
+  "license": "ISC",
+  "author": "lmgginspace",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
