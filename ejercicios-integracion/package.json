@@ -1,0 +1,12 @@
+{
+  "name": "ejercicios-integracion",
+  "version": "1.0.0",
+  "description": "Ejercicios de integración de JavaScript",
+  "license": "ISC",
+  "author": "lmgginspace",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
